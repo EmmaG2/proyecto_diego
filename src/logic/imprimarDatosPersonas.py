@@ -1,4 +1,4 @@
-from lib.clases.Persona import Persona
+from src.lib.clases.Persona import Persona
 from typing import List
 
 def imprimir_datos_personas(personas: List[Persona]):

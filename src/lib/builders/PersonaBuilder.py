@@ -1,4 +1,4 @@
-from lib.clases.Persona import Persona
+from src.lib.clases.Persona import Persona
 
 class PersonaBuilder:
     def __init__(self, nombre):

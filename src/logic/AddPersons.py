@@ -1,5 +1,5 @@
-from lib.builders.PersonaBuilder import PersonaBuilder
-from lib.clases.Persona import Persona
+from src.lib.builders.PersonaBuilder import PersonaBuilder
+from src.lib.clases.Persona import Persona
 from typing import List
 
 def add_person(personas: List[Persona]):

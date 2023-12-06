@@ -1,11 +1,11 @@
-from lib.builders.PersonaBuilder import PersonaBuilder
+from src.lib.builders.PersonaBuilder import PersonaBuilder
 
-from lib.menus.MenuUno import menu_uno
-from lib.menus.MenuDos import menu_dos
+from src.lib.menus.MenuUno import menu_uno
+from src.lib.menus.MenuDos import menu_dos
 
-from logic.AddPersons import add_person
+from src.logic.AddPersons import add_person
 
-from logic.imprimarDatosPersonas import imprimir_datos_personas, imprimir_datos_escolares, imprimir_salarios
+from src.logic.imprimarDatosPersonas import imprimir_datos_personas, imprimir_datos_escolares, imprimir_salarios
 
 opcion = -1
 personas = []
