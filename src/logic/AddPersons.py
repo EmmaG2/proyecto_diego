@@ -25,7 +25,5 @@ def add_person(personas: List[Persona]):
             .build()
         )
         
-        
-        
         n = n + 1;
         personas.append(persona)
